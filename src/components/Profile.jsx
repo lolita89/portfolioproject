@@ -1,15 +1,20 @@
 import React, { Component } from 'react';
-import { Grid, Col, Image } from 'react-bootstrap';
+import { Grid, Row, Col, Image } from 'react-bootstrap';
 import './Profile.css';
 
 class Profile extends Component {
     render() {
         return (
             <div>
+                <Image src="assets/womanheader.jpg" className="header-image img-responsive" />
                 <Grid>
-                    <Col xs={6} sm={4}>
-                    <Image src="assets/cikacv.jpg" />                
+                <h1>Cika Lolita Sugiharto</h1>
+                <Row>
+                    <Col>
                     </Col>
+                    <Col>
+                    </Col>
+                </Row>
                 </Grid>
             </div>
         );

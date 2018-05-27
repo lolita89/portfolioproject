@@ -10,13 +10,13 @@ class Home extends Component {
                 <Jumbotron>
                     <h2> Welcome to Cika's Page</h2>
                     <p>Let's have fun and enjoy!</p>
-                    <Link to="/profile">
-                      <Button bsStyle="warning">My Profile</Button>
+                    <Link to="/resume">
+                      <Button bsStyle="warning">My Resume</Button>
                     </Link>
                 </Jumbotron>
                 <Row className="show-grid text-center">
                 <Col xs={12} sm={4} className="person-wrapper">
-                <Image src="assets/foto-cika.jpg" circle className="profile-pic" />
+                <Image src="assets/foto-cika.jpg" circle className="resume-pic" />
                 <h3>Cika</h3>
                 <p>It is me</p>
                 </Col>
