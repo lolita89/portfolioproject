@@ -27,6 +27,9 @@ class CustomNavBar extends Component {
             <NavItem eventKey={4} componentClass={Link} href="/resume" to ="/resume">
               Resume
             </NavItem>
+            {/* <NavItem eventKey={4} componentClass={Link} href="/latihan" to ="/latihan">
+              Latihan
+            </NavItem> */}
             </Nav>
             </Navbar.Collapse>
          </Navbar>
