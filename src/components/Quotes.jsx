@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Grid, Col, Image } from 'react-bootstrap';
+import { Image } from 'react-bootstrap';
 import './Quotes.css';
 
 class Quotes extends Component {

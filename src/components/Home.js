@@ -2,38 +2,7 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { Jumbotron, Grid, Row, Col, Image, Button } from 'react-bootstrap';
 import './Home.css';
-import Latihan from './Latihan';
-import { createStore } from "redux";
-import { Provider } from "react-redux";
-
-const initialState = {
-    count: 42
-};
-
-function reducer(state = initialState, action){
-    switch(action.type) {
-        case "KALI":
-        return {
-            count: state.count * 2
-        };
-        case "TAMBAH":
-        return {
-            count: state.count + 2
-        };
-        case "KURANG":
-        return {
-            count: state.count - 2
-        };
-        default:
-        return state;
-    }
-}
-const store =  createStore(reducer);
-
-store.dispatch({type: "KALI"})
-store.dispatch({type: "TAMBAH"})
-store.dispatch({type: "KURANG"})
-
+import Latihan from '../containers/Latihan.js'
 
 class Home extends Component {
     
@@ -43,22 +12,24 @@ class Home extends Component {
             <Grid>
                 <Jumbotron>
                     <h2> Welcome to Cika's Page</h2>
-                    <p>Let's have fun and enjoy!</p>
+                    <p className="subtitle">Let's have fun and enjoy!</p>
                     <Link to="/resume">
-                      <Button bsStyle="warning">My Resume</Button>
+                      <Button bsStyle="warning"><b>My Resume</b></Button>
                     </Link>
-                </Jumbotron>
-                <Provider store={store}>
-              <Latihan count={2}/>
-                </Provider>
+                </Jumbotron>                
                 <Row className="show-grid text-center">
-                <Col xs={12} sm={4} className="person-wrapper">
+                <Col xs={4} md={5} >
+                <a href="https://github.com/lolita89">
+                <Image className="Github" src="assets/GitHub_Logo.png" />
+                </a>
+                <a href="https://www.linkedin.com/in/cikalolita/">
+                <Image className="Github" src="assets/linkedin.png" />
+                </a>
+                </Col>
+                <Col xs={4} md={5} mdPush={2} >
                 <Image src="assets/foto-cika.jpg" circle className="resume-pic" />
-                <h3>Cika</h3>
-                <p>It is me</p>
-                
-                
-
+                <h3>Cika Lolita SUgiharto</h3>
+                <p>A Junior Front-end Developer</p>
                 </Col>
                 </Row>
             </Grid>        
