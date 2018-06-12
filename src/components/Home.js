@@ -21,8 +21,8 @@ class Home extends Component {
         return (
             <Grid>
                 <Jumbotron>
-                    <h2> Welcome to Cika's Page</h2>
-                    <p className="subtitle">Let's have fun and enjoy!</p>
+                <h2> Hey, my name is Cika. Nice to meet you :D </h2>
+                    <p className="subtitle">I am a Front End Developer living in The Netherlands.</p>
                     <Link to="/resume">
                       <Button bsStyle="warning"><b>My Resume</b></Button>
                     </Link>

@@ -9,7 +9,7 @@ class CustomNavBar extends Component {
          <Navbar default collapseOnSelect >
          <Navbar.Header>
              <Navbar.Brand>
-                 <Link to="/">MyStory</Link>
+                 <Link to="/">C L S</Link>
              </Navbar.Brand>
             <Navbar.Toggle />
          </Navbar.Header>
