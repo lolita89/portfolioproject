@@ -21,25 +21,25 @@ class Home extends Component {
         return (
             <Grid>
                 <Jumbotron>
-                    <h2> Welcome to Cika's Page</h2>
-                    <p className="subtitle">Let's have fun and enjoy!</p>
+                <h2> Hey, my name is Cika. Nice to meet you :D </h2>
+                    <p className="subtitle">I am a Front End Developer living in The Netherlands.</p>
                     <Link to="/resume">
                       <Button bsStyle="warning"><b>My Resume</b></Button>
                     </Link>
                 </Jumbotron>                
                 <Row className="show-grid text-center">
                 <Col xs={4} md={5} >
-                <a href="https://github.com/lolita89">
-                <Image className="Github" src="assets/GitHub_Logo.png" />
-                </a>
-                <a href="https://www.linkedin.com/in/cikalolita/">
-                <Image className="Github" src="assets/linkedin.png" />
-                </a>
+                    <a href="https://github.com/lolita89">
+                <   Image className="Github" src="assets/GitHub_Logo.png" />
+                    </a>
+                    <a href="https://www.linkedin.com/in/cikalolita/">
+                    <Image className="Github" src="assets/linkedin.png" />
+                    </a>
                 </Col>
                 <Col xs={4} md={5} mdPush={2} >
-                <Image src="assets/foto-cika.jpg" circle className="resume-pic" />
-                <h3>Cika Lolita SUgiharto</h3>
-                <p>A Junior Front-end Developer</p>
+                    <Image src="assets/foto-cika.jpg" circle className="resume-pic" />
+                    <h3>Cika Lolita SUgiharto</h3>
+                    <p>A Junior Front-end Developer</p>
                 {/* <Quotes changeTitle={this.changeTitle.bind(this)} title={this.state.title}/> */}
                 </Col>
                 </Row>

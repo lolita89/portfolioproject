@@ -6,10 +6,10 @@ import './CustomNavbar.css';
 class CustomNavBar extends Component {
     render() {
         return (
-         <Navbar default collapseOnSelect>
+         <Navbar default collapseOnSelect >
          <Navbar.Header>
              <Navbar.Brand>
-                 <Link to="/">MyStory</Link>
+                 <Link to="/">C L S</Link>
              </Navbar.Brand>
             <Navbar.Toggle />
          </Navbar.Header>
@@ -32,7 +32,7 @@ class CustomNavBar extends Component {
             </NavItem>
             </Nav>
             </Navbar.Collapse>
-         </Navbar>
+         </Navbar>  
         );
     }
 }
