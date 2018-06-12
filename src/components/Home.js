@@ -30,7 +30,7 @@ class Home extends Component {
                 <Row className="show-grid text-center">
                 <Col xs={4} md={5} >
                     <a href="https://github.com/lolita89">
-                <   Image className="Github" src="assets/GitHub_Logo.png" />
+                    <Image className="Github" src="assets/GitHub_Logo.png" />
                     </a>
                     <a href="https://www.linkedin.com/in/cikalolita/">
                     <Image className="Github" src="assets/linkedin.png" />
