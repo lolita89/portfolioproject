@@ -21,7 +21,7 @@ class Quotes extends React.Component {
             <div>
                 {/* {this.props.title}
                 <input value={this.props.title} onChange={this.handleChange.bind(this)} /> */}
-                </div>
+            </div>
             </div>
             
         );

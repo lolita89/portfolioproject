@@ -16,12 +16,12 @@ class Profile extends Component {
             <div>
                 <Image src="assets/womanheader.jpg" className="header-image img-responsive" />
                 <Grid>
-                <h1>Sorry, this page is still in the construction :)</h1>
+                    <h1>Sorry, this page is still in the construction :)</h1>
                 <Row>
-<div>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/q2PR9Ci8HNA?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
-</iframe>
-</div>
+                <div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/q2PR9Ci8HNA?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
+                </iframe>
+                </div>
                 </Row>
                 </Grid>
             </div>
