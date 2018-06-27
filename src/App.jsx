@@ -7,6 +7,7 @@ import Resume from './components/Resume';
 import Navbar from './components/CustomNavBar';
 import Profile from './components/Profile';
 import Application from './components/Application'
+import Contact from './components/Contact';
 
 
 
@@ -20,7 +21,8 @@ class App extends Component {
         <Route path="/quotes" component={Quotes} />
         <Route path="/resume" component={Resume} />
         <Route path="/profile" component={Profile} />
-        <Route path="/application" component={Application} />
+        <Route path="/contact" component={Contact} />
+
       </div>
     </Router>
     );
