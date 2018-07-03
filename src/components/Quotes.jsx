@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Image } from 'react-bootstrap';
+import { Image, ResponsiveEmbed } from 'react-bootstrap';
 import './Quotes.css';
 
 
@@ -13,10 +13,10 @@ class Quotes extends React.Component {
         return (
             <div>
             <div className="text-center">
-                <Image src="assets/woman-in-tech.jpg" className="header-image" />
-                <Image src="assets/woman-in-tech2.jpg" className="header-image" />
-                <Image src="assets/woman-in-tech3.jpg" className="header-image" />
-                <Image src="assets/woman-in-tech4.jpg" className="header-image " />
+                <Image src="assets/woman-in-tech.jpg" className="header-image img-responsive" />
+                <Image src="assets/woman-in-tech2.jpg" className="header-image img-responsive" />
+                <Image src="assets/woman-in-tech3.jpg" className="header-image img-responsive" />
+                <Image src="assets/woman-in-tech4.jpg" className="header-image img-responsive" />
             </div>
             <div>
                 {/* {this.props.title}
