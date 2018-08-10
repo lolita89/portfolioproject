@@ -14,12 +14,12 @@ class Profile extends Component {
           };
         return (
             <div>
-                <Image src="assets/womanheader.jpg" className="header-image img-responsive" />
+                {/* <Image src="assets/womanheader.jpg" className="header-image img-responsive" /> */}
                 <Grid>
                 <Row>
                 <div>
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/XebNxUE3ugA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
-                </iframe>
+                Tech Inspiration</iframe>
                 </div>
                 </Row>
                 </Grid>

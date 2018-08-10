@@ -36,7 +36,7 @@ class Home extends Component {
                     </a>
                 </Col>
                 <Col xs={4} md={5} mdPush={2} >
-                    <Image src="assets/foto-cika.jpg" circle className="resume-pic" />
+                    <Image src="assets/foto-cika.jpg" circle className="resume-pic" />   
                     <h3>Cika Lolita SUgiharto</h3>
                     <p>A Junior Front-end Developer</p>
                 {/* <Quotes changeTitle={this.changeTitle.bind(this)} title={this.state.title}/> */}

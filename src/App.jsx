@@ -8,6 +8,7 @@ import Navbar from './components/CustomNavBar';
 import Profile from './components/Profile';
 import Application from './components/Application'
 import Contact from './components/Contact';
+import Video from './components/Video';
 
 
 
@@ -20,8 +21,10 @@ class App extends Component {
         <Route exact path="/" component={Home} />
         <Route path="/quotes" component={Quotes} />
         <Route path="/resume" component={Resume} />
-        <Route path="/profile" component={Profile} />
+        <Route path="/video" component={Profile} />
         <Route path="/contact" component={Contact} />
+        <Route path="/apicall" component={Video} />
+
 
       </div>
     </Router>

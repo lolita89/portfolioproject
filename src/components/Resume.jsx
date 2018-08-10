@@ -8,7 +8,7 @@ class Resume extends Component {
             <div>
                 <Grid>
                     <Col xs={6} sm={4}>
-                    <Image src="assets/cikacv.jpg" />                
+                    <Image src="assets/cikacv.jpg"/>                
                     </Col>
                 </Grid>
             </div>

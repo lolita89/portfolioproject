@@ -21,15 +21,18 @@ class CustomNavBar extends Component {
             <NavItem eventKey={2} componentClass={Link} href="/quotes" to ="/quotes">
               Quotes
             </NavItem>
-            <NavItem eventKey={3} componentClass={Link} href="/profile" to ="/profile">
-              Profile
+            <NavItem eventKey={3} componentClass={Link} href="/video" to ="/video">
+              Video
             </NavItem>
             <NavItem eventKey={4} componentClass={Link} href="/resume" to ="/resume">
               Resume
             </NavItem>
-            <NavItem eventKey={5} componentClass={Link} href="/contact" to ="/contact">
-              Contact
+            <NavItem eventKey={5} componentClass={Link} href="/apicalll" to ="/apicall">
+             API Call exercise
             </NavItem>
+            {/* <NavItem eventKey={5} componentClass={Link} href="/contact" to ="/contact">
+              Contact
+            </NavItem> */}
           </Nav>
           </Navbar.Collapse>
          </Navbar>  
