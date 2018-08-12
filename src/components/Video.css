@@ -1,32 +1,4 @@
-.container-api {
-    border: 1px solid yellow;
-    color: white;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    margin-right: 150px;
-    margin-left: 80px;
-    background-color: black;
-}
-
-p {
-    text-indent: 50px;
-    text-align: justify;
-    letter-spacing: 3px;
-}
-
-.button_container {
-    text-align: center;
-  }
-  
-  .button {
-    background-color: pink;
-    border: none;
-    color: black;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 8px;
-    cursor: pointer;
+.img-responsive {
+    max-width: 100%; /* or to whatever you want here */
+    max-height: auto; /* or to whatever you want here */
   }

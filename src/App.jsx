@@ -5,10 +5,10 @@ import Home from './components/Home';
 import Quotes from './components/Quotes';
 import Resume from './components/Resume';
 import Navbar from './components/CustomNavBar';
-import Profile from './components/Profile';
+import Video from './components/Video';
 import Application from './components/Application'
 import Contact from './components/Contact';
-import Video from './components/Video';
+import ApiEx from './components/ApiEx';
 
 
 
@@ -21,10 +21,9 @@ class App extends Component {
         <Route exact path="/" component={Home} />
         <Route path="/quotes" component={Quotes} />
         <Route path="/resume" component={Resume} />
-        <Route path="/video" component={Profile} />
+        <Route path="/video" component={Video} />
         <Route path="/contact" component={Contact} />
-        <Route path="/apicall" component={Video} />
-
+        <Route path="/apicall" component={ApiEx} />
 
       </div>
     </Router>

@@ -21,7 +21,7 @@ class Home extends Component {
             <Grid>
                 <Jumbotron>
                 <h2> Hey, my name is Cika. Nice to meet you :D </h2>
-                    <p className="subtitle">I am a Front End Developer living in The Netherlands.</p>
+                <p className="subtitle">I am a Front End Developer living in The Netherlands.</p>
                     <Link to="/resume">
                       <Button bsStyle="warning"><b>My Resume</b></Button>
                     </Link>

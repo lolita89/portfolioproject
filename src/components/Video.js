@@ -1,78 +1,31 @@
 import React, { Component } from 'react';
+import { Grid, Row, Col, Image, ResponsiveEmbed } from 'react-bootstrap';
 import './Video.css';
-import axios from 'axios';
+import YouTube from 'react-youtube';
 
 class Video extends Component {
-    constructor () {
-        super()
-        this.state = {
-          username: '',
-          id: '',
-          location: '',
-          blog: '',
-        }
-    
-        this.nameClick = this.nameClick.bind(this)
-        this.idClick = this.idClick.bind(this)
-        this.locationClick = this.locationClick.bind(this)
-        this.blogClick = this.blogClick.bind(this)
-      }
-    
-      nameClick () {
-        axios.get('https://api.github.com/users/lolita89')
-          .then(response => this.setState({username: response.data.name}))
-      }
-    
-      idClick () {
-        axios.get('https://api.github.com/users/lolita89')
-          .then(response => this.setState({id: response.data.id}))
-      }
-    
-      locationClick () {
-        axios.get('https://api.github.com/users/lolita89')
-          .then(response => this.setState({location: response.data.location}))
-      }
-    
-      blogClick () {
-        axios.get('https://api.github.com/users/lolita89')
-          .then(response => this.setState({blog: response.data.blog}))
-      }
-    
-      render() {
+    render() {
+        const opts = {
+            height: '390',
+            width: '640',
+            playerVars: { // https://developers.google.com/youtube/player_parameters
+              autoplay: 1
+            }
+          };
         return (
-        <div className="container-api">
-          <h1>Hello!!</h1>
-          <h4>It is my simple exercise. I call the data from GitHub API using axios</h4>
-          <br/>
-            
-            <div className="button_container">
-    
-              <button className="button button-name" onClick={this.nameClick}>
-                Click me to see the owner of the GitHub account
-              </button>
-    
-               <button className="button button-id" onClick={this.idClick}>
-                Its ID
-              </button>
-    
-               <button className="button button-location" onClick={this.locationClick}>
-                Her Location
-              </button>
-    
-               <button className="button button-blog" onClick={this.blogClick}>
-                Her blog
-              </button>
-    
-              <p>This is GitHub of {this.state.username}</p>
-              <p>Her id is {this.state.id}</p>
-              <p>She lives in {this.state.location}</p>
-              <p>Her blog is {this.state.blog}</p>
-    
+            <div>
+                {/* <Image src="assets/womanheader.jpg" className="header-image img-responsive" /> */}
+                <Grid>
+                <Row>
+                <div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/XebNxUE3ugA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
+                Tech Inspiration</iframe>
+                </div>
+                </Row>
+                </Grid>
             </div>
-    
-        </div>
         );
-      }
     }
-    
-    export default Video;
+}
+
+export default Video;
