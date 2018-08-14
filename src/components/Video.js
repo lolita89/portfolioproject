@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-import { Grid, Row, Col, Image, ResponsiveEmbed } from 'react-bootstrap';
+import { Grid, Row } from 'react-bootstrap';
 import './Video.css';
-import YouTube from 'react-youtube';
 
 class Video extends Component {
     render() {
@@ -18,7 +17,7 @@ class Video extends Component {
                 <Grid>
                 <Row>
                 <div>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/XebNxUE3ugA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
+                <iframe title='women in tech' width="560" height="315" src="https://www.youtube.com/embed/XebNxUE3ugA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
                 Tech Inspiration</iframe>
                 </div>
                 </Row>
