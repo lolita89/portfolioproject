@@ -16,6 +16,7 @@ class ApiEx extends Component {
         this.idClick = this.idClick.bind(this)
         this.locationClick = this.locationClick.bind(this)
         this.blogClick = this.blogClick.bind(this)
+        this.reset = this.reset.bind(this)
       }
     
       nameClick () {
@@ -36,6 +37,15 @@ class ApiEx extends Component {
       blogClick () {
         axios.get('https://api.github.com/users/lolita89')
           .then(response => this.setState({blog: response.data.blog}))
+      }
+
+      reset() {
+        this.setState({
+          username: '',
+          id: '',
+          location: '',
+          blog: ''
+        })
       }
     
       render() {
@@ -61,6 +71,10 @@ class ApiEx extends Component {
     
                <button className="button button-blog" onClick={this.blogClick}>
                 Her blog
+              </button>
+
+              <button className="button button-blog" onClick={this.reset}>
+                Reset!
               </button>
     
               <p>This is GitHub of {this.state.username}</p>
