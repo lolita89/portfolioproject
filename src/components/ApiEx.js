@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './ApiEx.css';
 import axios from 'axios';
+import Counter from './Counter'
 
 class ApiEx extends Component {
     constructor () {
@@ -77,13 +78,13 @@ class ApiEx extends Component {
                 Reset!
               </button>
     
+            </div>
+
               <p>This is GitHub of {this.state.username}</p>
               <p>Her id is {this.state.id}</p>
               <p>She lives in {this.state.location}</p>
               <p>Her blog is {this.state.blog}</p>
-    
-            </div>
-    
+
         </div>
         );
       }

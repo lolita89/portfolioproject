@@ -1,4 +1,5 @@
 import React from 'react';
+import './ApiEx.css';
 
 
 class Counter extends React.Component {
@@ -33,13 +34,15 @@ class Counter extends React.Component {
 
     render() {
         return (
-            <div className="box">
-                <button onClick={this.increment}>increment!</button>
-                <button onClick={this.decrement}>decrement!</button>
-                <button onClick={this.reset}>reset!</button>
+            <div className="container-api">
+
+                <div className="button_container">
+                    <button className="button" onClick={this.increment}>increment!</button>
+                    <button className="button" onClick={this.decrement}>decrement!</button>
+                    <button className="button" onClick={this.reset}>reset!</button>
+                </div>
 
                 <p>{this.state.count}</p>
-
             </div>
         );
     }
