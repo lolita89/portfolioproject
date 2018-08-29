@@ -4,13 +4,13 @@ import './Video.css';
 
 class Video extends Component {
     render() {
-        const opts = {
-            height: '390',
-            width: '640',
-            playerVars: { // https://developers.google.com/youtube/player_parameters
-              autoplay: 1
-            }
-          };
+        // const opts = {
+        //     height: '390',
+        //     width: '640',
+        //     playerVars: { // https://developers.google.com/youtube/player_parameters
+        //       autoplay: 1
+        //     }
+        //   };
         return (
             <div>
                 {/* <Image src="assets/womanheader.jpg" className="header-image img-responsive" /> */}

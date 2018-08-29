@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import './ApiEx.css';
 import axios from 'axios';
-import Counter from './Counter'
 
 class ApiEx extends Component {
     constructor () {

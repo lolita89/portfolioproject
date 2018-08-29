@@ -6,11 +6,9 @@ import Quotes from './components/Quotes';
 import Resume from './components/Resume';
 import Navbar from './components/CustomNavBar';
 import Video from './components/Video';
-import Application from './components/Application'
 import Contact from './components/Contact';
 import ApiEx from './components/ApiEx';
 import Counter from './components/Counter';
-
 
 
 class App extends Component {
