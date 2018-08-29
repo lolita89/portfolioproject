@@ -9,6 +9,7 @@ import Video from './components/Video';
 import Application from './components/Application'
 import Contact from './components/Contact';
 import ApiEx from './components/ApiEx';
+import Counter from './components/Counter';
 
 
 
@@ -24,7 +25,7 @@ class App extends Component {
         <Route path="/video" component={Video} />
         <Route path="/contact" component={Contact} />
         <Route path="/apicall" component={ApiEx} />
-
+        <Route path="/counter" component={Counter} />
       </div>
     </Router>
     );

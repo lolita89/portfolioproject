@@ -30,9 +30,13 @@ class CustomNavBar extends Component {
             <NavItem eventKey={5} componentClass={Link} href="/apicalll" to ="/apicall">
              API Call exercise
             </NavItem>
+            <NavItem eventKey={6} componentClass={Link} href="/counter" to ="/counter">
+             Counter
+            </NavItem>
             {/* <NavItem eventKey={5} componentClass={Link} href="/contact" to ="/contact">
               Contact
             </NavItem> */}
+
           </Nav>
           </Navbar.Collapse>
          </Navbar>  
